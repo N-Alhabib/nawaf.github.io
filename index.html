@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nawaf — Portfolio</title>
+  <meta name="description" content="IT student portfolio: projects, skills, and contact."/>
+  
+  <!-- Google Fonts & Bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold">Nawaf Alhabib<span class="text-primary">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-8">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img class="avatar shadow-soft" src="assets/IMG_3273[1] نسخ.jpg" alt="Profile Pic">
+            <div>
+              <h1 class="h3 fw-bold mb-1">IT Student & Aspiring Front-End / Software Intern</h1>
+              <p class="mb-0 text-white">Graduating this term — open to internships.</p>
+            </div>
+          </div>
+          <p class="lead mb-4">I build clean, responsive web interfaces and love turning complex ideas into simple UI. Currently working on graduation project called <span class="fw-semibold">Intelligent Log File Analyzer</span>.</p>
+          <div class="d-flex gap-2">
+            <a class="btn btn-primary" href="#projects">See Projects</a>
+            <a class="btn btn-outline-secondary" href="assets/My resume.pdf" download>Download Résumé</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects -->
+  <section id="projects" class="section bg-light">
+    <div class="container text-center">
+      <h2 class="h4 fw-bold mb-3">Projects</h2>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-soft">
+            <div class="card-body">
+              <h3 class="h6 fw-bold">Intelligent Log File Analyzer</h3>
+              <p class="small">Web tool for log analysis and anomaly detection using transformer model.</p>
+              <span class="badge bg-light">Python</span>
+              <span class="badge bg-light">LogBERT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- New project card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-soft">
+            <div class="card-body">
+              <h3 class="h6 fw-bold">SOFTWARE ENGINEERING PROJECT – MOBILE APP
+DEVELOPMENT
+</h3>
+              <p class="small">Led a team applying software engineering principles to build a mobile app—managed requirements, design, and testing to deliver a user-focused prototype.</p>
+              <span class="badge bg-light">Figma</span>
+              <span class="badge bg-light">Canva</span>
+              <div class="mt-3">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section bg-body-tertiary">
+    <div class="container">
+      <h2 class="h4 fw-bold mb-3">Skills</h2>
+      <div class="d-flex flex-wrap gap-2">
+        <span class="badge bg-light">HTML5</span>
+        <span class="badge bg-light">CSS3</span>
+        <span class="badge bg-light">JavaScript</span>
+        <span class="badge bg-light">Bootstrap</span>
+        <span class="badge bg-light">Git & GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container text-center">
+      <h2 class="h4 fw-bold mb-3">Contact</h2>
+      <p>📧 n.alhabib1@outlook.com</p>
+      <p>🔗 <a href="https://www.linkedin.com/in/nawaf-alhabib" target="https://www.linkedin.com/in/nawaf-alhabib-a03a41333/">LinkedIn</a> | <a href="https://github.com/" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <footer class="footer text-center text-muted small">
+    <div class="container">
+      <span>© <span id="year"></span> Nawaf. Built with HTML/CSS/JS + Bootstrap.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
